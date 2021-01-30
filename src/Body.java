@@ -19,7 +19,7 @@ public class Body {
 	
 	public void draw(Graphics g)
 	{
-		g.setColor(Color.WHITE);
+		g.setColor(Color.GREEN);
 		g.fillRect(xCoor * width,  yCoor * height,  width,  height);
 	}
 
